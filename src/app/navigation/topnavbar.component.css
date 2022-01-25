@@ -1,0 +1,11 @@
+button, .hu-topnavbar{
+    outline-style: solid;
+    outline-color: transparent;
+    font-family: 'Space Grotesk', sans-serif;
+}
+ul {
+    font-family: 'Space Grotesk', sans-serif;
+    position: relative;
+        
+}
+
