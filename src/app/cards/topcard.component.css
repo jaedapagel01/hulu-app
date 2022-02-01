@@ -1,0 +1,24 @@
+div, .hu-topcard{
+    outline-style: solid;
+    outline-color: transparent;
+    font-family: 'Space Grotesk', san-serif;
+    margin: 0;
+    background-image: fixed;
+    background-position: fixed;
+    background-size: 100%;
+    background-image:linear-gradient(to left, rgba(245, 246, 252, 0), #ee380bba),
+    url('src/assets/2020-show.png'); 
+    vertical-align: bottom;
+
+}
+h5, button, p, .hu-topcard{
+    outline-style: solid;
+    outline-color: transparent;
+    font-family: 'Space Grotesk', san-serif;
+    font-weight: bold;
+    vertical-align: bottom;
+}
+button, .hu-topcard{
+    width: 6%;
+}
+

@@ -2,6 +2,7 @@ button, .hu-topnavbar{
     outline-style: solid;
     outline-color: transparent;
     font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
 }
 ul {
     font-family: 'Space Grotesk', sans-serif;
