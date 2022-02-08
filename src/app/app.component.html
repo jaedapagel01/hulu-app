@@ -1,9 +1,36 @@
 <hu-topnavbar>Loading...</hu-topnavbar>
 <hu-topcard>Loading...</hu-topcard>
 
-<hu-genrecards >Loading...</hu-genrecards>
+<div class="container-fluid">
+    <div class="card-header ">BECAUSE YOU WATCHED THE GREAT</div>
+    <div class="d-flex flex-row">
+        <div *ngFor="let bcuwatched of bcuwatched1">
+            <hu-bcuwatched image={{bcuwatched.image}}>
+                Loading...
+            </hu-bcuwatched>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="card-header ">2022 ACADEMY AWARDS® NOMINEES</div>
+    <div class="d-flex flex-row">
+        <div *ngFor="let nominees of nominees1">
+            <hu-bcuwatched image={{nominees.image}}>
+                Loading...
+            </hu-bcuwatched>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="card-header ">GENRES</div>
+    <div class="d-flex flex-row">
+        <div *ngFor="let genre of genres">
+            <hu-genrecards image={{genre.image}}>
+                Loading...
+            </hu-genrecards>
+        </div>
+    </div>
+</div>
 
 <hu-footer>Loading...</hu-footer>
 <hu-footertwo>Loading...</hu-footertwo>
-
-   

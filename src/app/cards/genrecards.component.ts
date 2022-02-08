@@ -7,11 +7,11 @@ import { Component, Input } from "@angular/core";
 
 })
 export class GenreCardsComponent {
-    @Input() img: string;
+    @Input() image: string;
     title: string;
 
     constructor() {
-        this.img = " ";
+        this.image = "";
         this.title = "GENRES";
     }
 

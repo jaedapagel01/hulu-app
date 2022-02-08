@@ -6,6 +6,8 @@ import { GenreCardsComponent } from 'src/app/cards/genrecards.component';
 import { FooterComponent } from 'src/app/navigation/footer.component';
 import { FooterTwoComponent } from 'src/app/navigation/footertwo.component';
 import { AppComponent } from './app.component';
+import { BcUWatchedComponent } from './cards/bcuwatched.component';
+import { NomineesComponent } from './cards/nominees.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { AppComponent } from './app.component';
     TopCardComponent,
     FooterComponent,
     FooterTwoComponent,
-    GenreCardsComponent
+    GenreCardsComponent,
+    BcUWatchedComponent,
+    NomineesComponent
   ],
   imports: [
     BrowserModule
