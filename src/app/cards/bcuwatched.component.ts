@@ -8,9 +8,10 @@ import { Component, Input } from "@angular/core";
 })
 export class BcUWatchedComponent {
     @Input() image: string;
-
+    @Input() font_weight: string;
     constructor() {
         this.image = "";
+        this.font_weight = "";
     }
 
 }

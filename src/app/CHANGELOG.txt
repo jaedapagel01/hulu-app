@@ -1,0 +1,9 @@
+Main features: 
+Created a layout for the footers using flex-col
+Added five layout components(The five buttons on the nav bar): tv-layout, 
+                                home-layout, mystuff-layout, movies-layout, 
+                                news-layout and created .ts, .css, 
+                                and .html for all of them
+Added routing for each button on my nav bar to where it takes you to a new page
+Bonus:
+        created five new cards in "My Stuff" page

@@ -3,31 +3,37 @@
         <a class="navbar-brand" href="#">
             <img src="assets/hulu-logo-black.png" alt="" width="70" height="25">
         </a>
-        <a htref="#" class="btn btn-default">
-            <button class="btn btn-default" data-bs-toggle="button" autocomplete="off">HOME
+        <a htref="#" class="btn">
+            <button routerLink="Home" routerLinkActive="active" class="btn" data-bs-toggle="button"
+                autocomplete="off">HOME
                 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap"
                     rel="stylesheet">
             </button>
-            <button class="btn btn-default">TV</button>
-            <button class="btn btn-default">MOVIES</button>
-            <button class="btn btn-default">MY STUFF</button>
-            <button class="btn btn-default">HUBS</button>
+            <button routerLink="TV" routerLinkActive="active" class="btn">TV</button>
+            <button routerLink="Movies" routerLinkActive="active" class="btn">MOVIES</button>
+            <button routerLink="MyStuff" routerLinkActive="active" class="btn">MY STUFF</button>
+            <button routerLink="Hubs" routerLinkActive="active" class="btn">HUBS</button>
         </a>
 
         <div class="m-2">
-                <svg class="bi" width="32" height="32" fill="currentColor">
-                    <use xlink:href="/assets/bootstrap-icons.svg#search" />
-                </svg>
-            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuButton1"
+            <svg class="bi" width="32" height="32" fill="currentColor">
+                <use xlink:href="/assets/bootstrap-icons.svg#search" />
+            </svg>
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuButton"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 <img src="assets/j-profile.png" alt="" width="45" height="45">
             </button>
-            <ul class="dropdown-menu dropdown-menu-right">
+            <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#"><svg class="bi" width="16" height="32" fill="currentColor">
+                            <use xlink:href="/assets/bootstrap-icons.svg#moon-fill" />
+                        </svg> Night Mode: Off <svg class="bi" width="20" height="32" fill="currentColor">
+                            <use xlink:href="/assets/bootstrap-icons.svg#toggle-off" />
+                        </svg></a>
                 <li><a class="dropdown-item" href="#">Manage Profiles</a>
                 <li><a class="dropdown-item" href="#">Account</a></li>
                 <li><a class="dropdown-item" href="#">Help Center</a></li>
                 <li><a class="dropdown-item" href="#">Log Out</a></li>
-                
+
             </ul>
         </div>
     </div>

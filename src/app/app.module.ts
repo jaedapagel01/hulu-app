@@ -8,6 +8,13 @@ import { FooterTwoComponent } from 'src/app/navigation/footertwo.component';
 import { AppComponent } from './app.component';
 import { BcUWatchedComponent } from './cards/bcuwatched.component';
 import { NomineesComponent } from './cards/nominees.component';
+import { AppRoutingModule } from './app-routing.module';
+import { MyStuffLayoutComponent } from './navigation/mystuff-layout.component';
+import { HomeLayoutComponent } from './cards/home-layout.component';
+import { TvLayoutComponent } from './navigation/tv-layout.component';
+import { MoviesLayoutComponent } from './navigation/movies-layout.component';
+import { NewsLayoutComponent } from './navigation/news-layout.component';
+import { HubsLayoutComponent } from './navigation/hubs-layout.component';
 
 @NgModule({
   declarations: [
@@ -18,10 +25,17 @@ import { NomineesComponent } from './cards/nominees.component';
     FooterTwoComponent,
     GenreCardsComponent,
     BcUWatchedComponent,
-    NomineesComponent
+    NomineesComponent,
+    MyStuffLayoutComponent,
+    HomeLayoutComponent,
+    TvLayoutComponent,
+    MoviesLayoutComponent,
+    NewsLayoutComponent,
+    HubsLayoutComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
