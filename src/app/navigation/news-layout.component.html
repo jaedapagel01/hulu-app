@@ -1,1 +1,12 @@
-this is news
+<div class="container-fluid">
+    <div class="card-header border-0">IN THE NEWS</div>
+    <div class="d-flex flex-row">
+        <div class=" row row-cols-md-5">
+        <div *ngFor="let newscard of newscards">
+            <hu-genrecards image={{newscard.image}}>
+                Loading...
+            </hu-genrecards>
+        </div>
+    </div>
+</div>
+</div>

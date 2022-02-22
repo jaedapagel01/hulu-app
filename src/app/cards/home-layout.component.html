@@ -1,6 +1,6 @@
 <hu-topcard>Loading...</hu-topcard>
 <div class="container-fluid">
-    <div class="card-header " style.font-weight = 'bold'>BECAUSE YOU WATCHED THE GREAT</div>
+    <div class="card-header border-0" style.font-weight = 'bold'>BECAUSE YOU WATCHED THE GREAT</div>
     <div class="d-flex flex-row">
         <div *ngFor="let bcuwatched of bcuwatched1">
             <hu-bcuwatched image={{bcuwatched.image}}>
@@ -10,7 +10,7 @@
     </div>
 </div>
 <div class="container-fluid">
-    <div class="card-header ">2022 ACADEMY AWARDS® NOMINEES</div>
+    <div class="card-header border-0">2022 ACADEMY AWARDS® NOMINEES</div>
     <div class="d-flex flex-row">
         <div *ngFor="let nominees of nominees1">
             <hu-bcuwatched image={{nominees.image}}>
@@ -19,8 +19,8 @@
         </div>
     </div>
 </div>
-<div class="container-fluid">
-    <div class="card-header ">GENRES</div>
+<div class="container-fluid border-0">
+    <div class="card-header border-0 ">GENRES</div>
     <div class="d-flex flex-row">
         <div *ngFor="let genre of genres">
             <hu-genrecards image={{genre.image}}>

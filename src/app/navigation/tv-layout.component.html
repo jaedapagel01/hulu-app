@@ -1,1 +1,10 @@
-this is Tv
+<div class="container-fluid">
+    <div class="card-header border-0">GENRES</div>
+    <div class="d-flex flex-row">
+        <div *ngFor="let tvcard of tvcards">
+            <hu-genrecards image={{tvcard.image}}>
+                Loading...
+            </hu-genrecards>
+        </div>
+    </div>
+</div>

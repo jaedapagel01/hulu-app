@@ -1,3 +1,4 @@
+Lab 4: 
 Main features: 
 Created a layout for the footers using flex-col
 Added five layout components(The five buttons on the nav bar): tv-layout, 
@@ -7,3 +8,11 @@ Added five layout components(The five buttons on the nav bar): tv-layout,
 Added routing for each button on my nav bar to where it takes you to a new page
 Bonus:
         created five new cards in "My Stuff" page
+
+Lab 5:
+Main features:
+        added components to the MyStuff page, TV page, and the Movies page      
+                added genre cards to tv and movies
+                added shows to my stuff bage along with a text card explaining what my stuff is
+                added news channels to news page
+        used the for loop for all of my cards on each page
