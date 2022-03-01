@@ -16,3 +16,13 @@ Main features:
                 added shows to my stuff bage along with a text card explaining what my stuff is
                 added news channels to news page
         used the for loop for all of my cards on each page
+
+Lab 6:
+Main features: 
+        Created a realtime database in firebase containing all of my basic info
+        I then created that into a .json file
+        Used HttpClient to obatain the info from the database backend
+        I created user-info.component.html
+                  user-info.component.ts
+                  user-info.model.ts
+        where I displayed my info into the website I am using, using HttpClient

@@ -15,8 +15,10 @@ import { TvLayoutComponent } from './navigation/tv-layout.component';
 import { MoviesLayoutComponent } from './navigation/movies-layout.component';
 import { NewsLayoutComponent } from './navigation/news-layout.component';
 import { HubsLayoutComponent } from './navigation/hubs-layout.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './user-info.component';
 
-@NgModule({
+@NgModule ({
   declarations: [
     AppComponent,
     TopNavBarComponent,
@@ -31,11 +33,13 @@ import { HubsLayoutComponent } from './navigation/hubs-layout.component';
     TvLayoutComponent,
     MoviesLayoutComponent,
     NewsLayoutComponent,
-    HubsLayoutComponent
+    HubsLayoutComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
