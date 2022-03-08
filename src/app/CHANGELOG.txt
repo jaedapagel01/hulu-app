@@ -26,3 +26,8 @@ Main features:
                   user-info.component.ts
                   user-info.model.ts
         where I displayed my info into the website I am using, using HttpClient
+
+Lab 7:
+Main features:
+        moved my content from mock_genre to realtime database
+        created a genre service component and used it in my home layout component to display the genre list
