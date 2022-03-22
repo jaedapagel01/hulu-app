@@ -14,3 +14,26 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDNBJlskaUdIeimdnA9c903tmylswql5Ls",
+  authDomain: "hulu-app-73a9b.firebaseapp.com",
+  databaseURL: "https://hulu-app-73a9b-default-rtdb.firebaseio.com",
+  projectId: "hulu-app-73a9b",
+  storageBucket: "hulu-app-73a9b.appspot.com",
+  messagingSenderId: "699174746593",
+  appId: "1:699174746593:web:470e53a4fd5250d6307aa0",
+  measurementId: "G-KXEQZQ2LX9"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
